@@ -56,7 +56,7 @@ As we disccussed during sessions, it is good to delve into and investigate the d
    
 ### Hacking question on National Identification - `شماره ملی` (N-ID) records.
 1.1 Extract distinct of the fake National IDs in dataset.
-1.2. Write a function to to validate National ID based on descritions provided at below 2 websites.
+1.2. Write a function to to validate National ID based on descritions provided at below websites.
 
    - [national-code-validation-algorithm](https://academy.rayanita.com/national-code-validation-algorithm/)
 
