@@ -22,28 +22,36 @@ considering that fact that row index could be column to join data again if neede
 
 3. Following on Exe 1., work to bin and label each national ID, i.e records in dataset for following 4 columns, [`frstPrd_99`, `lstPrd_99`, `frstPrd_1400`, `lstPrd_1400`] with Q1, Q2, Q3, Q4 labels representing related quantiles. These are to be add in following 4 new columns [`frstPrd_99_Q`, `lstPrd_99_Q`, `frstPrd_1400_Q`, `lstPrd_1400_Q`]
 
-4. Develop a logic to calculate estimatation for **`دارایی`** per National ID.
+4. Develop a logic to roughly calculate estimatation for **`Wealth - دارایی، ثروت`** per National ID. [Wealth is determined by taking the total market value of all physical and intangible assets owned, then subtracting all debts.](https://www.investopedia.com/terms/w/wealth.asp).
+5. Could you find any Person which gained more than expected **`Wealth`** over past few years? Develop a logic to identify high deviations from normal **Income** and **Wealth** increase trend over past years. Read and think on **Tax evasion - فرار مالیاتی** to develop tax fraud detection. 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/20220826_Share_of_unpaid_taxes%2C_by_income_level_-_area_chart%2C_treemap_-_NYTimes_-_Dept_of_Treasury.svg/330px-20220826_Share_of_unpaid_taxes%2C_by_income_level_-_area_chart%2C_treemap_-_NYTimes_-_Dept_of_Treasury.svg.png)
+ 
 
-6.  
+
 ## Project for course:
 
-As we disccussed during sessions, it is good to delve into and investigate the introduced dataset in one Jupyter notebook:
+As we disccussed during sessions, it is good to delve into and investigate the dataset in one Jupyter notebook:
 
-  - What are your aanlysis questions on dataset?
-     - Write down questions and answers you could extract 
-  - Did you face any data issues?
-     - List data issues
+  - What are your anlysis questions on dataset?
+     - Write down questions and answers you have.
+     - What are answers you extract.
+     - 
+  - Did you face any **data quality issues**?
+     - List them with short explnation of why you consider these as data issue.
+     - 
   - Based on your `Statistics` course knowledge, is dataset representing whole Iran population without bias?
-  - Provide result of your analysis on `income - Daramad` and `Darayi`. What is the `Pareto` distribution of `income - Daramad` and `Darayi`?
+  - Analyze data to see if the **`Wealth - دارایی، ثروت`** follow [`Pareto_distribution`](https://en.wikipedia.org/wiki/Pareto_distribution).
+   https://en.wikipedia.org/wiki/Pareto_distribution#Occurrence_and_applications
+
+ > Vilfredo Pareto originally used this distribution to describe the allocation of wealth among individuals since it seemed to show rather well the way that a larger portion  of the wealth of any society is owned by a smaller percentage of the people in that society. He also used it to describe distribution of income.[4] This idea is sometimes expressed more simply as the Pareto principle or the "80-20 rule" which says that 20% of the population controls 80% of the wealth.
+     - Could you make chnage in distribution over time? 
   - Any other logical issues you face in dataset.
-  
-Preferebly in Persian.
+   
+### Hacking question on National Identification - `شماره ملی` (N - ID) records.
+1.1 Extract distinct of the fake National IDs in dataset.
 
+1.2 As noticed in our investigation, most of fake N-ID values are in range $10^10$ < and < $10^12$.    
 
-### Hacky question on National Identification - `شماره ملی` (NID) records.
-1.1 Extract distinct National IDs in the record.
-
-1.2 As discussed in class, most N ID values are in range 
-
+discussed in class
 it seems that National ID values are we can 
 1.3. Write a function to to validate National ID based on descritions provided at  below to websites 
