@@ -43,15 +43,21 @@ As we disccussed during sessions, it is good to delve into and investigate the d
   - Analyze data to see if the **`Wealth - دارایی، ثروت`** follow [`Pareto_distribution`](https://en.wikipedia.org/wiki/Pareto_distribution).
    https://en.wikipedia.org/wiki/Pareto_distribution#Occurrence_and_applications
 
- > Vilfredo Pareto originally used this distribution to describe the allocation of wealth among individuals since it seemed to show rather well the way that a larger portion  of the wealth of any society is owned by a smaller percentage of the people in that society. He also used it to describe distribution of income.[4] This idea is sometimes expressed more simply as the Pareto principle or the "80-20 rule" which says that 20% of the population controls 80% of the wealth.
+    > Vilfredo Pareto originally used this distribution to describe the allocation of wealth among individuals since it seemed to show rather well the way that a larger portion  of the wealth of any society is owned by a smaller percentage of the people in that society. He also used it to describe distribution of income.[4] This idea is sometimes expressed more simply as the Pareto principle or the "80-20 rule" which says that 20% of the population controls 80% of the wealth.
      - Could you make chnage in distribution over time? 
   - Any other logical issues you face in dataset.
    
-### Hacking question on National Identification - `شماره ملی` (N - ID) records.
+### Hacking question on National Identification - `شماره ملی` (N-ID) records.
 1.1 Extract distinct of the fake National IDs in dataset.
+1.2. Write a function to to validate National ID based on descritions provided at below 2 websites.
 
-1.2 As noticed in our investigation, most of fake N-ID values are in range $10^10$ < and < $10^12$.    
+    https://academy.rayanita.com/national-code-validation-algorithm/
+    https://exceliran.com/melli-code-checker-in-excel/
+    http://www.aliarash.com/article/codemeli/codemeli.htm
+    https://www.yasa.co/%DA%A9%D8%AF-%D9%85%D9%84%DB%8C-%D9%88-%D8%B4%D9%87%D8%B1-%D9%85%D8%AD%D9%84-%D8%B5%D8%AF%D9%88%D8%B1-%D8%A2%D9%86-%D8%B4%D9%87%D8%B1-%D9%85%D8%AD%D9%84-%D8%AA%D9%88%D9%84%D8%AF/
+    
+1.3 As noticed in our investigation, most of fake N-ID values are in range $10^{10}$ < and < $10^{12}$. There might be a possibility that fake N-ID are made by
 
-discussed in class
-it seems that National ID values are we can 
-1.3. Write a function to to validate National ID based on descritions provided at  below to websites 
+$fake N-ID = a \cross N-ID + b $
+where $10 < a < 100$ and $10 < a < 100$
+
