@@ -28,6 +28,16 @@ considering that fact that row index could be column to join data again if neede
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/20220826_Share_of_unpaid_taxes%2C_by_income_level_-_area_chart%2C_treemap_-_NYTimes_-_Dept_of_Treasury.svg/330px-20220826_Share_of_unpaid_taxes%2C_by_income_level_-_area_chart%2C_treemap_-_NYTimes_-_Dept_of_Treasury.svg.png)
  
+6. Calculate the age for each Nation ID and
+   - Calculate median age per province and county. 
+   ![median age by country](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2017_world_map%2C_median_age_by_country.svg/640px-2017_world_map%2C_median_age_by_country.svg.png)
+   - prepare **[Population Pyramid](https://en.wikipedia.org/wiki/Population_pyramid)** based on dataset. 
+
+![Egypt_sample2005](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Egypt_population_pyramid_2005.svg/640px-Egypt_population_pyramid_2005.svg.png)
+
+7. Prepare sample **[Population_growth](https://en.wikipedia.org/wiki/Population_growth) rate** for Iran.
+[Link for furtehr information](https://www.futurelearn.com/info/courses/introduction-to-environmental-science/0/steps/270677)  
+![World_population_growth_rate](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/World_population_growth_rate_1950%E2%80%932050.svg/1024px-World_population_growth_rate_1950%E2%80%932050.svg.png)
 
 
 ## Project for course:
@@ -54,7 +64,8 @@ As we disccussed during sessions, it is good to delve into and investigate the d
      
   - Any other logical issues you face in dataset.
    
-### Hacking question on National Identification - `شماره ملی` (N-ID) records.
+### Hacking question on **National Identification - `شماره ملی` (N-ID)** records.
+
 1.1 Extract distinct of the fake National IDs in dataset.
 1.2. Write a function to to validate National ID based on descritions provided at below websites.
 
@@ -68,7 +79,7 @@ As we disccussed during sessions, it is good to delve into and investigate the d
     
 1.3 As noticed in our investigation, most of fake N-ID values are in range $10^{10}$ < and < $10^{12}$. There might be a possibility that fake N-ID are made by
 
-   $fake National-ID = a \times National-ID + b$
+   fake National-ID $= a \times$ National-ID  + $b$
 
    where $10 < a < 100$ and $10 < a < 100$
 
