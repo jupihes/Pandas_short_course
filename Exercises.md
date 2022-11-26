@@ -60,9 +60,10 @@ As we disccussed during sessions, it is good to delve into and investigate the d
      
 ![Pareto distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Probability_density_function_of_Pareto_distribution.svg/640px-Probability_density_function_of_Pareto_distribution.svg.png)
 <!-- ![image]([https://github.com/jupihes/Pandas_short_course/blob/main/images/sample_columns.png](https://mathworld.wolfram.com/images/eps-svg/ParetoDistribution_801.svg))     -->
-     - Could you make plot of change of distribution for data set over time?
+      
+      - Could you make plot of change of distribution for data set over time?
      
-  - Any other logical issues you face in dataset.
+   - Any other logical issues you face in dataset.
    
 ### Hacking question on **National Identification - `شماره ملی` (N-ID)** records.
 
