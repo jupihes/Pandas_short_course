@@ -46,9 +46,11 @@ As we disccussed during sessions, it is good to delve into and investigate the d
    https://en.wikipedia.org/wiki/Pareto_distribution#Occurrence_and_applications
 
     > Vilfredo Pareto originally used this distribution to describe the allocation of wealth among individuals since it seemed to show rather well the way that a larger portion  of the wealth of any society is owned by a smaller percentage of the people in that society. He also used it to describe distribution of income.[4] This idea is sometimes expressed more simply as the Pareto principle or the "80-20 rule" which says that 20% of the population controls 80% of the wealth.
-     - Could you make chnage in distribution over time?
+
      
-![Pareto_distribution](https://en.wikipedia.org/wiki/Pareto_distribution#/media/File:Probability_density_function_of_Pareto_distribution.svg)
+![Pareto distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Probability_density_function_of_Pareto_distribution.svg/640px-Probability_density_function_of_Pareto_distribution.svg.png)
+<!-- ![image]([https://github.com/jupihes/Pandas_short_course/blob/main/images/sample_columns.png](https://mathworld.wolfram.com/images/eps-svg/ParetoDistribution_801.svg))     -->
+     - Could you make plot of change of distribution for data set over time?
      
   - Any other logical issues you face in dataset.
    
