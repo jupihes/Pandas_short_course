@@ -66,8 +66,9 @@ As we disccussed during sessions, it is good to delve into and investigate the d
    
 ### Hacking question on **National Identification - `شماره ملی` (N-ID)** records.
 
-1.1 Extract distinct of the fake National IDs in dataset.
-1.2. Write a function to to validate National ID based on descritions provided at below websites.
+1. Extract distinct of the fake National IDs in dataset.
+
+2. Write a function to to validate National ID based on descritions provided at below websites.
 
    - [national-code-validation-algorithm](https://academy.rayanita.com/national-code-validation-algorithm/)
 
@@ -77,9 +78,9 @@ As we disccussed during sessions, it is good to delve into and investigate the d
 
    - [کد ملی و شهر محل صدور آن](https://www.yasa.co/%DA%A9%D8%AF-%D9%85%D9%84%DB%8C-%D9%88-%D8%B4%D9%87%D8%B1-%D9%85%D8%AD%D9%84-%D8%B5%D8%AF%D9%88%D8%B1-%D8%A2%D9%86-%D8%B4%D9%87%D8%B1-%D9%85%D8%AD%D9%84-%D8%AA%D9%88%D9%84%D8%AF/)
     
-1.3 As noticed in our investigation, most of fake N-ID values are in range $10^{10}$ < and < $10^{12}$. There might be a possibility that fake N-ID are made by
+3. As noticed in our investigation, most of fake N-ID values are in range $10^{10}$ < and < $10^{12}$. There might be a possibility that fake N-ID are made by
 
    fake National-ID $= a \times$ National-ID  + $b$
 
-   where $10 < a < 100$ and $10 < a < 100$
+   where $10 < a < 100$ and $10^{} < a < 100^{}$
 
