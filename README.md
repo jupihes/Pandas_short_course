@@ -3,7 +3,7 @@
 Short course on Pandas library
 
 
-| Session |                        | Session details                           | Reading - Listening                           |       Exercise      |                       What is covered?                      |
+| Session (Notebook) |                        | Session details                           | Reading - Listening                           |       Exercise      |                       What is covered?                      |
 |---------|------------------------|-------------------------------------------|-----------------------------------------------|:-------------------:|:-----------------------------------------------------------:|
 |    [1](https://github.com/jupihes/Pandas_short_course/blob/main/Pandas_D1%262-checkpoint.ipynb)    | Introduction to Pandas | Difficulties & motivation to using Pandas |    Teach Yourself Programming in Ten Years    |                     | Motivation, Introduction, Syllabus review, Sample data read |
 |         |                        | Excel & CSV Hell                          | Escaping Excel Hell <br>Listen to: Excel Hell |                     |                                                             |
