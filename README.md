@@ -31,3 +31,11 @@ Short course on Pandas library
 |         |                        | Sort, duplicates                          |                 Pandas vs SQL                 |                     |                                                             |
 |         |                        | Cut, Qcut                                 |                                               |                     |                                                             |
 |         |                        | Transform and Pipe                        |                                               |       Homework      |                                                             |
+
+
+## References
+
+- [Python for Data Analysis, 3Edition Wes Mc Kinney Book](https://wesmckinney.com/book/)
+- [data-manipulation-with-python guide By Amidi](https://www.mit.edu/~amidi/teaching/data-science-tools/study-guide/data-manipulation-with-python)
+- [Hands-On Data Analysis with Pandas By Stefanie Molin](https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition)
+-
