@@ -36,8 +36,9 @@ Short course on Pandas library
 ## References
 
 - [Python for Data Analysis, 3Edition Wes Mc Kinney Book](https://wesmckinney.com/book/)
+- [Pandas documentation](https://pandas.pydata.org/docs/index.html)
 - [data-manipulation-with-python guide By Shervine Amidi
 ](https://www.mit.edu/~amidi/teaching/data-science-tools/study-guide/data-manipulation-with-python)
 - [Hands-On Data Analysis with Pandas By Stefanie Molin](https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition)
-- 
+- [pandas-pivot-table-explained](https://pbpython.com/pandas-pivot-table-explained.html)
 - [Pandas for SQL user by Hesam Mohammad Hosseini](https://github.com/jupihes/SQL-versus-Pandas/blob/master/Pandas%20SQL-like%20functionality.ipynb)
