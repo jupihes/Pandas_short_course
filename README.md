@@ -19,9 +19,7 @@ Short course on Pandas library
 |         |                        | Categorical data                          |                                               |                     |                                                             |
 |         |                        | Review Pandas documentation               |    pandas user_guide<br>merge join samples    |                     |                                                             |
 |         |                        |                                           |                                               |       Homework      |                                                             |
-|    [3_1]    |  [Prepocessing Data - 2_n1](https://github.com/jupihes/Pandas_short_course/blob/main/Pandas_D3.ipynb)
-[Prepocessing Data - 2_n1](https://github.com/jupihes/Pandas_short_course/blob/main/Pandas_D4.ipynb)
-| String techniuques                        |                                               |                     |                                                             |
+|    [3_1]    |  [Prepocessing Data - 2_notebook1](https://github.com/jupihes/Pandas_short_course/blob/main/Pandas_D3.ipynb) [Prepocessing Data - 2_notebook2](https://github.com/jupihes/Pandas_short_course/blob/main/Pandas_D4.ipynb)| String techniuques                        |                                               |                     |                                                             |
 |        |                        | String - REGEX                            |                                               |                     |                                                             |
 |         |                        | Date-time techniuques                     |                                               |                     |                                                             |
 |         |                        |                                           |                                               | Review and question |                                                             |
