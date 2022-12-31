@@ -1,6 +1,14 @@
 # Pandas_short_course
 
-Short course on Pandas library
+- Here you can find the content for short course to review and understand Advanced functionalities and features of Pandas library.
+
+- We use sample 2% dataset of Iranian's welfare provided by Iran's welfare ministry  [نمونه 2 درصدی از پایگاه اطلاعات رفاه ایرانیان](https://refahdb.mcls.gov.ir/fa/sample).
+
+![](https://github.com/jupihes/Pandas_short_course/blob/main/images/refah-stats-webpage.png)
+
+<br>
+Here is details on course plan and related notebboks:<br>
+
 
 
 | Session (Notebook) |                        | Session details                           | Reading - Listening                           |       Exercise      |                       What is covered?                      |
