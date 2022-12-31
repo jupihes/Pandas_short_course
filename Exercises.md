@@ -1,6 +1,8 @@
 
 
-Please work on below exercises to grasp more on what we discussed during the sessions.
+
+
+- Considering sample 2% dataset of Iranian's welfare provided by Iran's welfare ministry  [نمونه 2 درصدی از پایگاه اطلاعات رفاه ایرانیان](https://refahdb.mcls.gov.ir/fa/sample), please work on below exercises to grasp more on what we discussed during the sessions.
 
 1. Write a code to make an average, minimum, maximum and standard deviation of following columns.
  
