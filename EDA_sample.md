@@ -58,6 +58,19 @@ df['Brith_year'] = 1402 - df['Age']
 df['Brithday'] = 1402 - df['Age']  # 1402-06-31 - df['Age'] * 365.25
 # df['Brithday'] = df['Year'] + '/' + df['Month'] + '/' + df['Day']  # 2022/05/17
 ```
+
+```python
+df = pd.read_csv('https://github.com/alvarobartt/covid-daily/blob/master/data/iran/cases-cured-daily.csv')
+
+# converting the string to datetime format 
+df['Dates'] = pd.to_datetime(df['Dates'], format='%y-%m-%d')   # 2020-02-15
+ 
+df.head()
+df.dtypes
+
+df.Date.dt.????
+```
+
 ## Investigate number of childern, order birth, gender type and age
 How to do?
 
