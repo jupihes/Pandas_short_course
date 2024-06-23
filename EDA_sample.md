@@ -181,17 +181,16 @@ Hadley Wickham, an author of many popular packages for the R programming languag
 
 Each grouping key can take many forms, and the keys do not have to be all of the same type:
 
-    - A list or array of values that is the same length as the axis being grouped
-    
-    - A value indicating a column name in a DataFrame
-    
-    - A dictionary or Series giving a correspondence between the values on the axis being grouped and the group names
-    
-    - A function to be invoked on the axis index or the individual labels in the index
+- A list or array of values that is the same length as the axis being grouped
+
+- A value indicating a column name in a DataFrame
+
+- A dictionary or Series giving a correspondence between the values on the axis being grouped and the group names
+
+- A function to be invoked on the axis index or the individual labels in the index
 
 
- <img src=https://wesmckinney.com/book/images/pda3_1001.png alt=\"Grouping implemnetation\" width=\"42%\" >
-
+ <img src=https://wesmckinney.com/book/images/pda3_1001.png alt="Grouping implemnetation" width="42%" >
 
 
  The Python command is as follows:
