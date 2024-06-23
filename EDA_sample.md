@@ -173,3 +173,111 @@ df.groupby(by= 'frstPrd_99' ).agg({
  'Dar_100MT': [np.count_nonzero, np.sum, np.mean, np.std]  
 })
 ```
+## Grouping data - Group by and Pivot_table
+
+[data-aggregation :: groupby_fundamentals](https://wesmckinney.com/book/data-aggregation.html#groupby_fundamentals)
+
+Hadley Wickham, an author of many popular packages for the R programming language, coined the term split-apply-combine for describing group operations. In the first stage of the process, data contained in a pandas object, whether a Series, DataFrame, or otherwise, is split into groups based on one or more keys that you provide. The splitting is performed on a particular axis of an object. For example, a DataFrame can be grouped on its rows (`axis="index"`) or its columns (`axis="columns"`). Once this is done, a function is applied to each group, producing a new value. Finally, the results of all those function applications are combined into a result object. The form of the resulting object will usually depend on what’s being done to the data. See Figure 10.1 for a mockup of a simple group aggregation.
+
+Each grouping key can take many forms, and the keys do not have to be all of the same type:
+
+    - A list or array of values that is the same length as the axis being grouped
+    
+    - A value indicating a column name in a DataFrame
+    
+    - A dictionary or Series giving a correspondence between the values on the axis being grouped and the group names
+    
+    - A function to be invoked on the axis index or the individual labels in the index
+
+
+ <img src=https://wesmckinney.com/book/images/pda3_1001.png alt=\"Grouping implemnetation\" width=\"42%\" >
+
+
+
+ The Python command is as follows:
+```python
+(df
+ .groupby(['col_1', ..., 'col_n'])
+ .agg({'col': builtin_agg})
+```
+where builtin_agg is among the following:
+
+<table class="table">
+<caption>Table&nbsp;10.1: Optimized <code>groupby</code> methods</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Function name</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>any, all</code></td>
+<td style="text-align: left;">Return <code>True</code> if any (one or more values) or all non-NA values are "truthy"</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>count</code></td>
+<td style="text-align: left;">Number of non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>cummin, cummax</code></td>
+<td style="text-align: left;">Cumulative minimum and maximum of non-NA values</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>cumsum</code></td>
+<td style="text-align: left;">Cumulative sum of non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>cumprod</code></td>
+<td style="text-align: left;">Cumulative product of non-NA values</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>first, last</code></td>
+<td style="text-align: left;">First and last non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>mean</code></td>
+<td style="text-align: left;">Mean of non-NA values</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>median</code></td>
+<td style="text-align: left;">Arithmetic median of non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>min, max</code></td>
+<td style="text-align: left;">Minimum and maximum of non-NA values</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>nth</code></td>
+<td style="text-align: left;">Retrieve value that would appear at position <code>n</code> with the data in sorted order</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>ohlc</code></td>
+<td style="text-align: left;">Compute four "open-high-low-close" statistics for time series-like data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>prod</code></td>
+<td style="text-align: left;">Product of non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>quantile</code></td>
+<td style="text-align: left;">Compute sample quantile</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>rank</code></td>
+<td style="text-align: left;">Ordinal ranks of non-NA values, like calling <code>Series.rank</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>size</code></td>
+<td style="text-align: left;">Compute group sizes, returning result as a Series</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>sum</code></td>
+<td style="text-align: left;">Sum of non-NA values</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>std, var</code></td>
+<td style="text-align: left;">Sample standard deviation and variance</td>
+</tr>
+</tbody>
+</table>
