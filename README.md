@@ -4,6 +4,9 @@
 
 - We use sample 2% dataset of Iranian's welfare provided by Iran's welfare ministry  [نمونه 2 درصدی از پایگاه اطلاعات رفاه ایرانیان](https://refahdb.mcls.gov.ir/fa/sample).
 
+
+- Understand [Pandas]() in ![Python datascience stack](https://github.com/jorisvandenbossche/talks/blob/master/2017_INRIA_pandas/img/JakeVdP-ecosystem5.svg)
+  
 ![](https://github.com/jupihes/Pandas_short_course/blob/main/images/refah-stats-webpage.png)
 
 <br>
